@@ -1,0 +1,25 @@
+{   
+    "name": "Real Estate",
+    "version": "18.0.1.0",
+    "category": "Industries",
+    "summary": "Real Estate Management",
+    "description": "",
+    "website": "",
+    "depends": [
+        "base_setup",
+        # "sale_management",
+        # "account",
+        # "stock",
+        # "hr",
+        # "project",
+    ],
+    "data": [
+        "security/ir.model.access.csv",
+        "views/estate_property_views.xml",
+        "views/estate_menu.xml",
+    ],
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+    "license": "LGPL-3",
+}
